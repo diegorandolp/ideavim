@@ -41,7 +41,7 @@ set relativenumber
 set showmode
 set showcmd
 set visualbell
-set clipboard=unnamed
+set clipboard+=unnamed
 
 " Search settings
 set ignorecase
