@@ -11,4 +11,6 @@ vim.o.shiftwidth = 4        -- Set indentation width
 vim.o.tabstop = 4           -- Number of spaces per tab
 vim.o.smartindent = true    -- Auto-indent new lines
 
+vim.keymap.set('i', 'jk', '<Esc>', { silent = true }) -- jk to Escape
+
 -- :source ~/.config/nvim/init.lua
