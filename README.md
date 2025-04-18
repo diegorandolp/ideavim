@@ -74,11 +74,18 @@ nvim ~/.config/nvim/init.lua
 ```
 
 ### Plugins
-```bash
+```
 mkdir -p ~/.config/nvim/lua/plugins/
 nvim ~/.config/nvim/lua/plugins/lualine.lua
 # Paste the plugin
 ```
+
+## Commands
+```bash
+:Lazy
+:checkhealt lazy
+```
+
 > [!NOTE]
 > TODO: CREATE REPO AND MAKE EASIER THE INSTALLATION
 
