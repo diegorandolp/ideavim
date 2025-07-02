@@ -69,12 +69,11 @@ nvim ~/.config/nvim/lua/config/lazy.lua
 nvim ~/.config/nvim/init.lua
 # Uncomment require("config.lazy")
 
-# Check
-:checkhealth lazy
 ```
 
 ### Plugins
 ```
+# Lualine
 mkdir -p ~/.config/nvim/lua/plugins/
 nvim ~/.config/nvim/lua/plugins/lualine.lua
 # Paste the plugin
@@ -83,7 +82,7 @@ nvim ~/.config/nvim/lua/plugins/lualine.lua
 ## Commands
 ```bash
 :Lazy
-:checkhealt lazy
+:checkhealth lazy
 ```
 
 > [!NOTE]
