@@ -75,7 +75,7 @@ nvim ~/.config/nvim/init.lua
 ```
 # Lualine
 mkdir -p ~/.config/nvim/lua/plugins/
-nvim ~/.config/nvim/lua/plugins/lualine.lua
+nvim ~/.config/nvim/lua/plugins/examples.lua
 # Paste the plugin
 ```
 
@@ -87,4 +87,5 @@ nvim ~/.config/nvim/lua/plugins/lualine.lua
 
 > [!NOTE]
 > TODO: CREATE REPO AND MAKE EASIER THE INSTALLATION
+> TODO: Config from https://github.com/LazyVim/LazyVim, so check it
 
