@@ -18,11 +18,29 @@ vim.opt.rtp:prepend(lazypath)
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
+    -- add LazyVim andi mport its plugins
+    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import your plugins
     { import = "plugins" },
   },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
-  -- automatically check for plugin updates
+  defaults = {
+      lazy = false, -- only LazyVim plugins will be lazy-loaded, others will load during startup
+      version = false, -- always use the latest git commit
+  },
+  install = { colorscheme = { "tokyonight"} },
+  cheker = {
+      enabled = true, -- automatically check plugin updates periodically
+      notify = false, -- notify on update
+  },
+  performance = {
+    rtp = { -- diable some plugins
+      disable_plugins = {
+        "gzip",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },   
+    },
+  },
 })
