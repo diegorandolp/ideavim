@@ -27,7 +27,6 @@ require("lazy").setup({
       lazy = false, -- only LazyVim plugins will be lazy-loaded, others will load during startup
       version = false, -- always use the latest git commit
   },
-  install = { colorscheme = { "tokyonight"} },
   cheker = {
       enabled = true, -- automatically check plugin updates periodically
       notify = false, -- notify on update
