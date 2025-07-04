@@ -73,9 +73,9 @@ nvim ~/.config/nvim/init.lua
 
 ### Plugins
 ```
-# Lualine
+# All plugins
 mkdir -p ~/.config/nvim/lua/plugins/
-nvim ~/.config/nvim/lua/plugins/examples.lua
+nvim ~/.config/nvim/lua/plugins/custom.lua
 # Paste the plugin
 ```
 
