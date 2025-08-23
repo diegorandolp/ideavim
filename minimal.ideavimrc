@@ -13,7 +13,8 @@ set ignorecase     " Ignore case when searching...
 set smartcase      " ...unless the pattern contains an uppercase letter
 " Others
 set showmode       " Show the current mode (e.g., -- INSERT --)
-set scrolloff=5    " Keep 5 lines visible above/below cursor when scrolling
+set scrolloff=0
+
 set clipboard=unnamedplus " Use system clipboard for copy/paste
 
 " --- IdeaVim Specific Settings ---
@@ -29,4 +30,10 @@ set ideajoin " Use IDE's Join Lines action (J in normal mode join the current an
 let mapleader = " "
 " Escape with jk
 inoremap jk <Esc>
-map <leader>c <action>(CommentByLineComment) " Comment line
+"Comment line
+nnoremap <leader>c :action CommentByLineComment<CR>
+xnoremap <leader>c :action CommentByLineComment<CR>
+
+
+" Terminal
+map <leader>tt <Action>(ActivateTerminalToolWindow)
