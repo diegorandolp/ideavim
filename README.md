@@ -53,6 +53,17 @@ rm -r luarocks-3.11.1
 rm luarocks-3.11.1.tar.gz
 ```
 
+### NEOVIM (INSTALL/UPDATE)
+
+1. cd Downloads
+2. Download the AppImage from https://github.com/neovim/neovim/releases/tag/stable
+3. chmod u+x nvim-linux-x86_64.appimage
+4. sudo mv nvim-linux-x86_64.appimage /usr/local/bin
+5. cd /usr/local/bin
+6. sudo rm nvim (remove the old version, only if update)
+7. sudo mv nvim-linux-x86_64.appimage nvim
+
+
 ### NEOVIM and LAZY CONFIG
 
 | Assuming nvim is already installed
